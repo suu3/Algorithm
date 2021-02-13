@@ -2,6 +2,8 @@
 
 #Algorithm
 
+##Baekjoon 백준의 알고리즘 문제풀이 모음
+ - 2108, 2447, 2869, 15652
 ##University Assignment 대학 과제
  - Parallel Programming
     1. MPI_CalculateTheNumberOfOdd.c
