@@ -1,4 +1,4 @@
-// 2019 KAKAO BLIND RECRUITMENT
+// 2019 KAKAO BLIND RECRUITMENT : 오픈채팅방
 
 function solution(record) {
   let answer = [];
