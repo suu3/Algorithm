@@ -28,29 +28,28 @@ bool is_all_same(int x, int y, int n) {
  
 void quard_tree(int x, int y, int n) {
  
-    if (is_all_same(x, y, n)) {
-        int num = map[x][y];
+    if(is_all_same(x, y, n)) {
+        char num = map[x][y];
         cout << num;
         return;
     }
  
     int div = n / 2;
- 
+    cout << "(";
+
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
-            cout << "(";
             quard_tree(x + div * i, y + div * j, div);
-            cout << ")";
         }
     }
+    cout << ")";
+
 }
 
 int main() {
  
     N = 0;
-    memset(map, 0, sizeof(map));
-    memset(ans, 0, sizeof(ans));
- 
+
     cin >> N;
 
     for (int i = 0; i < N; i++) {
